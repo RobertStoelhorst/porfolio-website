@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
-  "homepage": "http://robertstoelhorst.com/",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://robertstoelhorst.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
