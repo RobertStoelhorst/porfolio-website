@@ -1,6 +1,8 @@
 import { Navbar } from './Navbar';
 import { Header } from './Header';
 import { About } from './About';
+import { EasySave } from './EasySave';
+// import { Tilt } from '../react-vanilla-tilt';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <Navbar />
         <Header />
         <About />
+        <EasySave />
       </div>
     </div>
   );

@@ -5,8 +5,6 @@ import Image4 from '../images/icons8-download-resume-48.png';
 import Image5 from '../images/icons8-microsoft-outlook-2019-48.png';
 import Pdf from './files/Robert-stoelhorst.pdf';
 
-
-
 export const Navbar = () => {
     return (
         <nav class="navbar">

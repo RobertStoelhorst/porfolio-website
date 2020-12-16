@@ -152,7 +152,7 @@ body {
   box-shadow: 0 6px 18px 1px #2e2e2e;
 }
 
-/* .tilt-container {
+.tilt-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -217,4 +217,4 @@ body {
 
 .horizontal-list:hover {
   transform: scale(1.2);
-} */
+}
