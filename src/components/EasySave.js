@@ -10,31 +10,31 @@ import Tilt from 'react-vanilla-tilt';
 export const EasySave = () => {
     return (
         <Tilt>
-        <div className="tilt-container">
-            <div class="box">
-                    <div class="imgBx">
-                        <img src={ Image0 } width="650" height="500" alt="" />
+            <div className="tilt-container">
+                <div class="box">
+                        <div class="imgBx">
+                            <img src={ Image0 } width="650" height="450" alt="" />
+                        </div>
+                        <div class="contentBx">
+                            <h2 class="project-title">EasySave - Budget Planner</h2>
+                            <p>EasySave is an app that I built during my final project week at General Assembly. 
+                                This project was an extreamly satisfiying build and I will continue to build on other 
+                                features I had wanted to build this app since the beginning of the course, It is a 
+                                replica clone both in terms of functionality and design. Please follow the link to my 
+                                Github below for all the details.</p>
+                            <ul class="tech-stack">
+                                <li class="horizontal-list"><img src={ Image1 } height="35px" alt="React icon" /></li>
+                                <li class="horizontal-list"><img src={ Image2 } height="40px" alt="Javascript icon" /></li>
+                                <li class="horizontal-list"><img src={ Image3 } height="40px" alt="HTML 5 icon" /></li>
+                                <li class="horizontal-list"><img src={ Image4 } height="40px" alt="CSS 3 icon" /></li>
+                            </ul>
+                            <ul class="external-links">
+                                <li class="horizontal-list"><a href="https://robertstoelhorst.github.io/easy-save/" target="_blank"><img src={ Image5 } height="40px" alt="CSS 3 icon" /></a></li>
+                                <li class="horizontal-list"><a href="https://github.com/RobertStoelhorst/easy-save" target="_blank"><img src={ Image6 } height="40px" alt="CSS 3 icon" /></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="contentBx">
-                        <h2>EasySave - Budget Planner</h2>
-                        <p>EasySave is an app that I built during my final project week at General Assembly. 
-                            This project was an extreamly satisfiying build and I will continue to build on other 
-                            features I had wanted to build this app since the beginning of the course, It is a 
-                            replica clone both in terms of functionality and design. Please follow the link to my 
-                            Github below for all the details.</p>
-                        <ul class="tech-stack">
-                            <li class="horizontal-list"><img src={ Image1 } height="35px" alt="React icon" /></li>
-                            <li class="horizontal-list"><img src={ Image2 } height="40px" alt="Javascript icon" /></li>
-                            <li class="horizontal-list"><img src={ Image3 } height="40px" alt="HTML 5 icon" /></li>
-                            <li class="horizontal-list"><img src={ Image4 } height="40px" alt="CSS 3 icon" /></li>
-                        </ul>
-                        <ul class="external-links">
-                            <li class="horizontal-list"><a href="https://robertstoelhorst.github.io/easy-save/" target="_blank"><img src={ Image5 } height="40px" alt="CSS 3 icon" /></a></li>
-                            <li class="horizontal-list"><a href="https://github.com/RobertStoelhorst/easy-save" target="_blank"><img src={ Image6 } height="40px" alt="CSS 3 icon" /></a></li>
-                        </ul>
-                    </div>
-                </div>
-        </div>
-        </Tilt>
+            </div>
+        </Tilt>     
     );
 }

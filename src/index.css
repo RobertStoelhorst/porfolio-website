@@ -136,10 +136,10 @@ body {
   margin-left: 30px;
 }
 
-#line {
+/* #line {
   padding-left: 10px;
   padding-right: 15px;
-}
+} */
 
 .about {
   text-align: center;
@@ -158,15 +158,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 50px 0;
+  margin-top: 120px;
   transform-style: preserve-3d;
 }
 
 .tilt-container .box {
   position: relative;
-  width: 650px;
-  height: 500px;
-  margin: 60px 0;
+  height: 450px;  
+  width: 650px;  
   transform-style: preserve-3d;
 }
 
@@ -179,17 +178,38 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;    
+  height: 100%;  
 }
 
 .tilt-container .box .contentBx {
-  position: absolute;    
-  top: 50%;
+  position: absolute;  
+  font-family: 'Roboto', sans-serif;  
+  font-size: 20px;
+  top: 10%;
   left: 50px;
   right: 50px;
   background: #fff;
-  transform: translateZ(20px) scaleY(0);
-  padding: 40px 25px;
+  transform: translateZ(200px) scaleY(0);
+  padding: 5px 30px;
+  transform-origin: top;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.project-title {
+  font-family: 'Oswald', sans-serif; 
+}
+
+.tilt-container .box .contentBx2 {
+  position: absolute;    
+  font-family: 'Roboto', sans-serif;  
+  font-size: 20px;
+  top: 10%;
+  left: 50px;
+  right: 50px;
+  background: #fff;
+  transform: translateZ(200px) scaleY(0);
+  padding: 5px 30px;
   transform-origin: top;
   transition: 0.5s;
   transform-style: preserve-3d;
@@ -198,8 +218,15 @@ body {
 .tilt-container .box:hover .contentBx {
   background: #39218a;
   color: white;
-  box-shadow: 0 6px 18px 1px #2e2e2e; 
-  transform: translateZ(150px) scaleZ(1);
+  box-shadow: 0 6px 18px 1px #2e2e2e;   
+  transform: translateX(500px) scaleZ(1);
+}
+
+.tilt-container .box:hover .contentBx2 {
+  background: #39218a;
+  color: white;
+  box-shadow: 0 6px 18px 1px #2e2e2e;   
+  transform: translateX(-500px) scaleZ(1);
 }
 
 .tech-stack {

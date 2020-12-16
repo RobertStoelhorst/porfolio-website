@@ -2,7 +2,9 @@ import { Navbar } from './Navbar';
 import { Header } from './Header';
 import { About } from './About';
 import { EasySave } from './EasySave';
-// import { Tilt } from '../react-vanilla-tilt';
+import { Photospread } from './Photospread';
+import { JokesGenerator } from './JokesGenerator';
+
 
 function App() {
   return (
@@ -10,8 +12,10 @@ function App() {
       <div className="parallax">
         <Navbar />
         <Header />
-        <About />
+        <About />       
         <EasySave />
+        <Photospread />           
+        <JokesGenerator />           
       </div>
     </div>
   );
