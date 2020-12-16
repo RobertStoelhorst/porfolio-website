@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+body {
+  margin: 0;  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.container {
+  font-family: 'Oswald', sans-serif;
+}
+
+.parallax {
+  background: url("./images/background-2.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 4100px;  
+}
+
+.navbar {
+  background-color: white;
+  padding: 1px;
+  box-shadow: 0 0 18px 0 #2e2e2e;
+}
+
+.socials {
+  display: flex;
+  list-style-type: none;
+}
+
+.socials::after {
+  display: inline;
+  content: 'contact';
+  border-top: 2px solid #9d9d9d;
+  width: 250px;
+  height: 0px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+.socials::before {
+  display: inline;
+  content: '';
+  border: 1px solid #9d9d9d;
+  width: 250px;
+  height: 0px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.horizontal-list {
+  padding: 0px 3px 0px 3px;    
+}
+
+.horizontal-list:hover {
+  transform: scale(1.2);
+}
+
+.header {
+  background: white; 
+  font-size: 30px;
+  line-height: 55px;
+  color: #1e96eb;
+  padding-left: 5%;
+  padding-bottom: 15px;
+  margin-top: 3%;
+  margin-left: 30%;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+  box-shadow: 0 6px 18px 1px #2e2e2e;
+}
+
+#after {
+  margin: 0;
+}
+
+#after::before {
+  display: block;
+  content: 'Hi, my name is';
+  color: #1e96eb;
+  font-size: 15px; 
+}
+
+#after::after {
+  display: block;
+  content: 'I create experiences on the web.';
+  color:   #777777;
+  font-size: 40px;
+  margin: 0; 
+}
+
+.intro {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  line-height: normal;
+  background: white; 
+  color: #555555;
+  max-width: 350px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color:   #777777;
+  font-size: 40px;
+  margin-top: 10%;
+}
+
+.title::before {
+  display: inline-flex;
+  content: '';
+  border-top: 2px solid #9d9d9d;
+  width: 150px;
+  height: 12px;
+  margin-right: 30px;
+}
+
+.title::after {
+  display: inline-flex;
+  content: '';
+  border-top: 2px solid #9d9d9d;
+  width: 150px;
+  height: 12px;
+  margin-left: 30px;
+}
+
+#line {
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.about {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background: white; 
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%;
+  box-shadow: 0 6px 18px 1px #2e2e2e;
+}
+
+/* .tilt-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  transform-style: preserve-3d;
+}
+
+.tilt-container .box {
+  position: relative;
+  width: 650px;
+  height: 500px;
+  margin: 60px 0;
+  transform-style: preserve-3d;
+}
+
+.tilt-container .box:hover {
+  box-shadow: 0 6px 18px 1px #2e2e2e; 
+}
+
+.tilt-container .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;    
+}
+
+.tilt-container .box .contentBx {
+  position: absolute;    
+  top: 50%;
+  left: 50px;
+  right: 50px;
+  background: #fff;
+  transform: translateZ(20px) scaleY(0);
+  padding: 40px 25px;
+  transform-origin: top;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.tilt-container .box:hover .contentBx {
+  background: #39218a;
+  color: white;
+  box-shadow: 0 6px 18px 1px #2e2e2e; 
+  transform: translateZ(150px) scaleZ(1);
+}
+
+.tech-stack {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.external-links {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 20%;
+}
+
+.horizontal-list:hover {
+  transform: scale(1.2);
+} */
