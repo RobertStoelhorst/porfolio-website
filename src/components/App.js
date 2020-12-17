@@ -5,14 +5,13 @@ import { EasySave } from './EasySave';
 import { Photospread } from './Photospread';
 import { JokesGenerator } from './JokesGenerator';
 
-
 function App() {
   return (
     <div className="container">
       <div className="parallax">
         <Navbar />
         <Header />
-        <About />       
+        <About />              
         <EasySave />
         <Photospread />           
         <JokesGenerator />           

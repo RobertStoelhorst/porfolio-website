@@ -10,11 +10,12 @@ import Tilt from 'react-vanilla-tilt';
 
 export const JokesGenerator = () => {
     return (
+        <div className="background">
         <Tilt>
             <div className="tilt-container">
                 <div class="box">
             <div class="imgBx">
-                <img src={ Image0 } width="650" height="450" alt="" />
+                <a href="https://murmuring-basin-92750.herokuapp.com/" target="_blank"><img src={ Image0 } width="650" height="450" alt="" /></a>                
             </div>
                 <div class="contentBx">
                     <h2 class="project-title">Jokes Generator - Social App</h2>
@@ -30,12 +31,13 @@ export const JokesGenerator = () => {
                         <li class="horizontal-list"><img src={ Image5 } height="40px" alt="CSS 3 icon" /></li>
                     </ul>
                         <ul class="external-links">
-                            <li class="horizontal-list"><a href="https://photo-spread.herokuapp.com/" target="_blank"><img src={ Image6 } height="40px" alt="site link icon" /></a></li>
-                            <li class="horizontal-list"><a href="https://github.com/RobertStoelhorst/photospread" target="_blank"><img src={ Image7 } height="40px" alt="github link icon" /></a></li>
+                            <li class="horizontal-list"><a href="https://murmuring-basin-92750.herokuapp.com/" target="_blank"><img src={ Image6 } height="40px" alt="site link icon" /></a></li>
+                            <li class="horizontal-list"><a href="https://github.com/RobertStoelhorst/Project1" target="_blank"><img src={ Image7 } height="40px" alt="github link icon" /></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </Tilt>      
+        </Tilt>    
+        </div>  
     );
 }
