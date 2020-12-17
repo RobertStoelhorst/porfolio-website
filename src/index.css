@@ -4,15 +4,12 @@
 
 
 body {
+  display: flex;
   margin: 0;  
+  width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
 .container {
   font-family: 'Oswald', sans-serif;
@@ -23,7 +20,8 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 3000px;  
+  height: 3000px;
+  width: 100%;  
 }
 
 .navbar {
