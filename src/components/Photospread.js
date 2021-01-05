@@ -14,8 +14,8 @@ export const Photospread = () => {
         <Tilt>
             <div className="tilt-container">
                 <div class="box">
-            <div class="imgBx">                
-                <a href="https://photo-spread.herokuapp.com/" target="_blank"><img src={ Image0 } width="650" height="450" alt="" /></a>
+            <div class="imgBx">     
+                <a><img src={ Image0 } width="650" height="450" alt="" /></a>
             </div>
                 <div class="contentBx2">
                     <h2 class="project-title">Photospread - User Gallery</h2>

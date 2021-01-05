@@ -18,12 +18,12 @@ export const EasySave = () => {
             <div className="tilt-container">
                 <div class="box">
                         <div class="imgBx">
-                            <a href="https://robertstoelhorst.github.io/easy-save/" target="_blank"><img src={ Image0 } width="650" height="450" alt="" /></a>                            
+                            <a><img src={ Image0 } width="650" height="450" alt="" /></a>                            
                         </div>
                         <div class="contentBx">
                             <h2 class="project-title">EasySave - Budget Planner</h2>
                             <p>EasySave is an app that I built during my final project week at General Assembly. 
-                                This project was an extreamly satisfiying build and I will continue to build on other 
+                                This project was an extremely satisfying build and I will continue to build on other 
                                 features I had wanted to build this app since the beginning of the course, It is a 
                                 replica clone both in terms of functionality and design. Please follow the link to my 
                                 Github below for all the details.</p>

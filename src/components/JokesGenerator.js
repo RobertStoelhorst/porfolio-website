@@ -15,7 +15,7 @@ export const JokesGenerator = () => {
             <div className="tilt-container">
                 <div class="box">
             <div class="imgBx">
-                <a href="https://murmuring-basin-92750.herokuapp.com/" target="_blank"><img src={ Image0 } width="650" height="450" alt="" /></a>                
+                <a><img src={ Image0 } width="650" height="450" alt="" /></a>                
             </div>
                 <div class="contentBx">
                     <h2 class="project-title">Jokes Generator - Social App</h2>

@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Ubuntu:wght@300;700&display=swap');
 
-
 body {
-  display: flex;
-  margin: 0;  
+  display: inline-flex;
+  margin: auto;
+  font-size: 16px;  
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,7 +21,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   height: 3000px;
-  width: 100%;  
 }
 
 .navbar {
@@ -49,7 +48,7 @@ body {
 .socials::before {
   display: inline;
   content: '';
-  border: 1px solid #9d9d9d;
+  border-top: 2px solid #9d9d9d;
   width: 250px;
   height: 0px;
   margin-top: 20px;
@@ -164,8 +163,9 @@ body {
 }
 
 .background {
-background: whitesmoke;
+background: rgb(97, 97, 114);
 width: 70%;
+max-width: 800px;
 padding-top: 1px;
 padding-bottom: 40px;
 margin-top: 40px;
@@ -183,8 +183,7 @@ border-radius: 0.3em;
 
 .tilt-container {
   display: flex;
-  position: relative;
-  display: flex;
+  /* position: relative; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -221,7 +220,7 @@ border-radius: 0.3em;
   left: 50px;
   right: 50px;
   background: #fff;
-  transform: translateZ(200px) scaleY(0);
+  transform: translateZ(20px) scaleY(0);
   padding: 5px 30px;
   transform-origin: top;
   transition: 0.5s;
