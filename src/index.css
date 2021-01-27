@@ -163,7 +163,8 @@ body {
 }
 
 .background {
-background: rgb(97, 97, 114);
+/* background: rgb(97, 97, 114); */
+background: whitesmoke;
 width: 70%;
 max-width: 800px;
 padding-top: 1px;
@@ -172,7 +173,7 @@ margin-top: 40px;
 margin-left: auto;
 margin-right: auto;
 box-shadow: 0 6px 18px 1px #2e2e2e; 
-border-radius: 0.3em;
+border-radius: 4.0em;
 }
 
 @media (max-width: 1000px) {
