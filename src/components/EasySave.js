@@ -11,7 +11,7 @@ export const EasySave = () => {
   return (
     <div className="background">
       <div className="featured">
-        <h1>Some of my proudest projects</h1>
+        <h1>Projects</h1>
       </div>
       <Tilt>
         <div className="tilt-container">
