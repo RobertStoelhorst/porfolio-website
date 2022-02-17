@@ -3,7 +3,7 @@ import Image2 from "../images/icons8-github-48.png";
 import Image3 from "../images/icons8-linkedin-48.png";
 import Image4 from "../images/icons8-download-resume-48.png";
 import Image5 from "../images/icons8-microsoft-outlook-2019-48.png";
-import Pdf from "./files/RobertStoelhorstEPAM.pdf";
+import Pdf from "./files/RobertStoelhorst.pdf";
 
 export const Navbar = () => {
   return (
